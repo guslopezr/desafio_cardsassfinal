@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Smooch&display=swap);
+body, .card .card-body {
+  background-color: #2b2a2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  gap: 5vh;
+  padding: 2vh;
+  background-color: #be91be;
+  margin: 3vh;
+}
+
+.card {
+  font-family: "Smooch", cursive, cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.card .btn {
+  background-color: #c85fc8;
+}
+
+.card .card-body {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.btn btn-primary {
+  font-family: "Smooch", cursive;
+}
+
+.card-title, .container {
+  color: #c85fc8;
+  font-family: "Smooch", cursive;
+}
+/*# sourceMappingURL=style.css.map */
